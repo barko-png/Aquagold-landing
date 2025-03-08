@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000, #FFD700);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px;
+}
+#logo {
+    width: 150px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+button {
+    background-color: gold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+button:hover {
+    transform: scale(1.1);
+}
+footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
